@@ -14,10 +14,13 @@ class AnimeAdapter(private val onClick: (Anime) -> Unit) : RecyclerView.Adapter<
 
     private val animeList = mutableListOf<Anime>()
 
+    val currentList: List<Anime>
+        get() = animeList
+
     fun submitList(list: List<Anime>) {
-        animeList.clear()
+        val startPosition = animeList.size
         animeList.addAll(list)
-        notifyDataSetChanged()
+        notifyItemRangeInserted(startPosition, list.size)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): AnimeViewHolder {

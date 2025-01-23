@@ -7,12 +7,8 @@ n
 >app/src/main/java/com/test/seekhoassignment/ui/MainActivity.kt,9\d\9d923017dc0e653daa43b5cfb798b83e8cb1c239
 P
  app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
-k
-;app/src/main/java/com/test/seekhoassignment/models/Anime.kt,5\b\5bbf7811229244b34ee35ca9004843198ca94219
 r
 Bapp/src/main/java/com/test/seekhoassignment/services/ApiService.kt,8\c\8c68c8e354067264623cfde5e139bb06ea41e8e4
-u
-Eapp/src/main/java/com/test/seekhoassignment/ui/AnimeDetailActivity.kt,e\f\ef08f91cae08e9ab75acc36f345e9f5949dc7c91
 t
 Dapp/src/main/java/com/test/seekhoassignment/adapters/AnimeAdapter.kt,c\a\caf73fa8a3d6306a10fb050ba55fb1855cf1a41c
 y

@@ -6,10 +6,14 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.GET
 import retrofit2.http.Path
+import retrofit2.http.Query
 
 interface ApiService {
     @GET("top/anime")
-    suspend fun getTopAnime(): AnimeListResponse
+    suspend fun getAnimeList(): AnimeListResponse
+
+    @GET("top/anime")
+    suspend fun getAnimeList(@Query("page") page: Int): AnimeListResponse
 
     @GET("anime/{id}")
     suspend fun getAnimeDetails(@Path("id") id: String?): AnimeDetailResponse
