@@ -11,16 +11,13 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
-import androidx.media3.common.MediaItem
 import androidx.media3.exoplayer.ExoPlayer
-import androidx.media3.ui.PlayerView
 import coil.load
 import com.example.seekhoassignment.R
-import com.test.seekhoassignment.models.AnimeDetailResponse
 import com.test.seekhoassignment.services.RetrofitInstance
 import kotlinx.coroutines.launch
 
-class AnimeDetailActivity : AppCompatActivity() {
+class AnimeDetailsActivity : AppCompatActivity() {
     private lateinit var player: ExoPlayer
     private lateinit var playerView: WebView
     private lateinit var posterImageView: ImageView
@@ -66,7 +63,7 @@ class AnimeDetailActivity : AppCompatActivity() {
 
             response.data.trailer?.embed_url?.let { trailerUrl ->
                 Log.i("response  URL", "onCreate: $trailerUrl")
-//                player = ExoPlayer.Builder(this@AnimeDetailActivity).build()
+//                player = ExoPlayer.Builder(this@AnimeDetailsActivity).build()
 //                playerView.player = player
                 playerView.visibility = View.VISIBLE
                 posterImageView.visibility = View.GONE

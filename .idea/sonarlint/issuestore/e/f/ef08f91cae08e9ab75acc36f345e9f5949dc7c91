@@ -1,12 +1,5 @@
 
-Zkotlin:S66196";Remove this useless elvis operation ?:, it always succeeds.( ‡8Œ×ÿƒÉ2
-Zkotlin:S66197";Remove this useless elvis operation ?:, it always succeeds.(¶„·Ê8Œ×ÿƒÉ2
-_kotlin:S66198";Remove this useless elvis operation ?:, it always succeeds.(µ³Å‰üÿÿÿÿ8Œ×ÿƒÉ2
-`kotlin:S66198"<Remove this useless null-safe access ?., it always succeeds.(µ³Å‰üÿÿÿÿ8Œ×ÿƒÉ2
-Zkotlin:S6619<"<Remove this useless null-safe access ?., it always succeeds.(’ğÄ8Œ×ÿƒÉ2
-[kotlin:S6619C"<Remove this useless null-safe access ?., it always succeeds.(Œ•8Œ×ÿƒÉ2
 hkotlin:S125I"Remove this commented out code.(Ñ¹’¡üÿÿÿÿ8·ÕéƒÉ2J$7dcf7127-2b07-4667-a20c-f69146cbc4a7
 dkotlin:S1128"Remove this unused import.(ï‚™Ûúÿÿÿÿ8ô½ËƒÉ2J$24ad35d6-3a36-4e71-8ebd-80db4a13db7e
 ^kotlin:S1128"Remove this unused import.(Ñ¤•t8õ½ËƒÉ2J$bbd26e67-dc94-4e06-af58-fa05a9756456
-9kotlin:S1128"Remove this unused import.(ŒÙ°ª8”×ÿƒÉ2
 hkotlin:S1874L"#Deprecated code should not be used.(§“Ìë8¿ÕéƒÉ2J$acf6ca47-b41b-47ad-a552-8902e9bfd6b6

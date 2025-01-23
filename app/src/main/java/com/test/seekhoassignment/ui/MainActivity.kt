@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var recyclerView: RecyclerView
     private val animeAdapter = AnimeAdapter { anime ->
         try {
-            val intent = Intent(this, AnimeDetailActivity::class.java)
+            val intent = Intent(this, AnimeDetailsActivity::class.java)
             intent.putExtra("ANIME_ID", anime.mal_id)
             startActivity(intent)
         } catch (ex: Exception) {
